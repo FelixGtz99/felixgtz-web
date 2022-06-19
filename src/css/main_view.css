@@ -1,0 +1,36 @@
+#header{
+    
+    z-index: -1;
+    width: 100%;
+ height:200px;
+ background: linear-gradient(var(--gradient_color_1), var(--gradient_color_2));
+}
+#container-title{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#title{
+  /* color: var(--color_primario); */
+  
+}
+.subtitle{
+    color: var(--color_primario);
+}
+#knowledge{
+    margin-top: 30px;
+}
+
+#flex-skills{
+display: flex;
+}
+#grid_data{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin-right: 75px;
+   
+}
+p#container-text{
+width: 75%;
+}

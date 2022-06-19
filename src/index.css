@@ -1,5 +1,17 @@
+:root {
+  --color_primario: #738290;
+  --color_secundario: #a1b5d8;
+  /* --color_terciario: #457B9D; */
+  --gradient_color_1:#c2d8b9;
+  --gradient_color_2:#e4f0d0;
+
+  --boton_texto: #fff;
+  --fondo:#fffcf7;
+}
+
 body {
   margin: 0;
+  background-color: var(--fondo);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
