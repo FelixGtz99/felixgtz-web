@@ -27,7 +27,7 @@ class MainView extends React.Component {
             <Text h1  id="title" weight="bold">
               Felix Jose Gutierrez Quijada
             </Text>
-            <Text h2>Software Developer </Text>
+            <Text h2 id='subtitle'>Software Developer </Text>
           </div>
         </article>
         <article id="grid_data">
@@ -110,15 +110,8 @@ class MainView extends React.Component {
                 </Card.Body>
                 <Card.Footer css={{ justifyItems: "flex-start" }}>
                   <Row wrap="wrap" justify="space-between" align="center">
-                    <Text b>sssss</Text>
-                    <Text
-                      css={{
-                        color: "$accents7",
-                        fontWeight: "$semibold",
-                        fontSize: "$sm",
-                      }}
-                    >
-                      dd
+                  <Text>
+                          Its a cross-platform app focused in a community 
                     </Text>
                   </Row>
                 </Card.Footer>
@@ -157,12 +150,7 @@ class MainView extends React.Component {
                 <Card.Footer css={{ justifyItems: "flex-start" }}>
                   <Row wrap="wrap" justify="space-between" align="center">
                     <Text>
-                           Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Consectetur et nisi tempora explicabo dignissimos vitae
-                      esse eum ducimus quia saepe ab facere libero, sit
-                      perspiciatis modi? Ipsa eaque deleniti quasi soluta
-                      reprehenderit cum ea obcaecati aspernatur neque eius
-                      sapiente voluptatibus itaque, corrupti est nemo? Iusto.
+                          Its a cross-platform app focused in a community 
                     </Text>
                   </Row>
                 </Card.Footer>
@@ -200,13 +188,8 @@ class MainView extends React.Component {
                 </Card.Body>
                 <Card.Footer css={{ justifyItems: "flex-start" }}>
                   <Row wrap="wrap" justify="space-between" align="center">
-                    <Text >
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Consectetur et nisi tempora explicabo dignissimos vitae
-                      esse eum ducimus quia saepe ab facere libero, sit
-                      perspiciatis modi? Ipsa eaque deleniti quasi soluta
-                      reprehenderit cum ea obcaecati aspernatur neque eius
-                      sapiente voluptatibus itaque, corrupti est nemo? Iusto.
+                  <Text>
+                          Its a cross-platform app focused in a community 
                     </Text>
                   
                   </Row>
