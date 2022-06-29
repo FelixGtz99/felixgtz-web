@@ -16,7 +16,9 @@ import angular_logo from "../assets/skills/angular_logo.png";
 import flutter_logo from "../assets/skills/flutter_logo.png";
 import ruby_logo from "../assets/skills/ruby_logo.png";
 import rails_logo from "../assets/skills/rails_logo.png";
-
+import mypicture from "../assets/felix.jpg";
+import tusasesorias from "../assets/projects/tus-asesorias.png";
+import petauxilium from "../assets/projects/pet-auxilium.jpg";
 class MainView extends React.Component {
   state = {};
   render() {
@@ -24,19 +26,17 @@ class MainView extends React.Component {
       <div>
         <article id="header">
           <div id="container-title">
-            <Text h1  id="title" weight="bold">
+            <Text h1 id="title" weight="bold">
               Felix Jose Gutierrez Quijada
             </Text>
-            <Text h2 id='subtitle'>Software Developer </Text>
+            <Text h2 id="subtitle">
+              Software Developer{" "}
+            </Text>
           </div>
         </article>
         <article id="grid_data">
           <section>
-            <img
-              src={js_logo}
-              alt="js logo"
-              id="mypic"
-            />
+            <img src={mypicture} alt="js logo" id="mypic" />
           </section>
           <section>
             <article>
@@ -45,7 +45,10 @@ class MainView extends React.Component {
               </Text>
               <Spacer y={1} />
               <p id="container-text">
-              Hello i´m Felix Gutierrez, a software developer who likes to 
+                Hello i´m Felix Gutierrez, A system engineer focused mainly on
+                web and mobile development, and I like to learn different
+                technologies, which gives me the ability to adapt to new
+                projects.
               </p>
             </article>
             <article id="knowledge">
@@ -101,24 +104,22 @@ class MainView extends React.Component {
                   </Grid.Container>
                 </Card.Header>
                 <Card.Body css={{ p: 0 }}>
-                  <Card.Image
-                    src={js_logo}
-                    objectFit="cover"
-                    width={75}
-                    height={100}
-                  />
+                  <Card.Image src={tusasesorias} objectFit="cover" />
                 </Card.Body>
                 <Card.Footer css={{ justifyItems: "flex-start" }}>
                   <Row wrap="wrap" justify="space-between" align="center">
-                  <Text>
-                          Its a cross-platform app focused in a community 
+                    <Text>
+                      It is a web application with the purpose of serving as a
+                      tool to offer or access online advice on various topics.
+                      In turn, it has a school material management system, and
+                      makes calls
                     </Text>
                   </Row>
                 </Card.Footer>
               </Card>
             </article>
             <article className="project">
-              <Card isPressable className="project-card">
+              <Card isPressable className="project-card" href="google.com">
                 <Card.Header>
                   <img
                     alt="logo"
@@ -141,16 +142,19 @@ class MainView extends React.Component {
                 </Card.Header>
                 <Card.Body css={{ p: 0 }}>
                   <Card.Image
-                    src={js_logo}
+                    src={petauxilium}
                     objectFit="cover"
-                    width={75}
-                    height={100}
+                    height={350}
                   />
                 </Card.Body>
                 <Card.Footer css={{ justifyItems: "flex-start" }}>
                   <Row wrap="wrap" justify="space-between" align="center">
                     <Text>
-                          Its a cross-platform app focused in a community 
+                      In an android application focused on serving as a social
+                      network in support of the community related to pets, with
+                      various services including giving animals up for adoption,
+                      registering lost pets, interacting with other users, among
+                      others
                     </Text>
                   </Row>
                 </Card.Footer>
@@ -159,39 +163,31 @@ class MainView extends React.Component {
             <article className="project">
               <Card isPressable className="project-card">
                 <Card.Header>
-                  <img
-                    alt="logo"
-                    src={angular_logo}
-                    width="34px"
-                    height="34px"
-                  />
+                  <img alt="logo" src={react_logo} width="34px" height="34px" />
                   <Grid.Container css={{ pl: "$6" }}>
                     <Grid xs={12}>
                       <Text h4 css={{ lineHeight: "$xs" }}>
-                        Tus Asesorías
+                        Sport Stats App
                       </Text>
                     </Grid>
                     <Grid xs={12}>
-                      <Text css={{ color: "$accents8" }}>
-                        Angular + Firebase
-                      </Text>
+                      <Text css={{ color: "$accents8" }}>React</Text>
                     </Grid>
                   </Grid.Container>
                 </Card.Header>
                 <Card.Body css={{ p: 0 }}>
-                  <Card.Image
-                    src={js_logo}
-                    objectFit="cover"
-                    width={75}
-                    height={100}
-                  />
+                  <Text h2 className="text-card">
+                    In progress
+                  </Text>
                 </Card.Body>
                 <Card.Footer css={{ justifyItems: "flex-start" }}>
                   <Row wrap="wrap" justify="space-between" align="center">
-                  <Text>
-                          Its a cross-platform app focused in a community 
+                    <Text>
+                      It is a web page under development in order to access
+                      statistics in various sports leagues such as mlb, premier league, la liga, nba, etc
+                     
                     </Text>
-                  
+            
                   </Row>
                 </Card.Footer>
               </Card>
